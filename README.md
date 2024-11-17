@@ -45,8 +45,7 @@ Welcome to **Blogverse**, a modern and interactive blogging platform where users
 #### **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/blogverse.git
-cd blogverse
+https://github.com/adithyarana/BlogVerse.git
 ```
 
 #### **Frontend Setup (React)**
