@@ -5,6 +5,8 @@ Welcome to **Blogverse**, a modern and interactive blogging platform where users
 
 ---
 
+The live link --- https://blog-verse-eta.vercel.app/
+
 ### 🚀 **Project Overview**
 
 **Blogverse** allows users to:
