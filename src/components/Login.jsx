@@ -10,7 +10,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Login() {
-    const navigate1 = useNavigate()
+    const navigate = useNavigate()
     const dispatch = useDispatch()
     const { register, handleSubmit } = useForm()
     const [error, setError] = useState("")
@@ -25,7 +25,7 @@ function Login() {
             const userdata = await authservice.getcurrentUser()
             if(userdata) dispatch(authlogin(userdata));
           
-            navigate1("/");
+            navigate("/");
           }
           
         } catch (error) {
@@ -34,7 +34,7 @@ function Login() {
     }
 
     return (
-       <div className='flex items-center justify-center w-full'>
+       <div className='flex items-center justify-center w-full p-14'>
         <div className={`mx-auto w-full max-w-lg bg-gray-100 rounded-xl p-10 border border-black/10`}>
         <div className="mb-2 flex justify-center">
                     <span className="inline-block w-full max-w-[100px]">
