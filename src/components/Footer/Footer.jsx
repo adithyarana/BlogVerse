@@ -18,8 +18,7 @@ function Footer() {
                             <div>
                                 <p className="text-sm text-gray-400">
 
-                                    &copy; Made with ❤️ by Adithya rana © 2024
-=======
+                                 
                                     Made with ❤️ by Adithya rana © 2024
 
                                 </p>
